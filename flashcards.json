@@ -7,7 +7,7 @@
       "description": "Canadian aviation radio",
       "studyHint": "Answer aloud for call signs, numbers and emergency procedures.",
       "source": {
-        "note": "Based on ISED RIC-21. Practice cards, not official exam questions.",
+        "note": "150 practice cards based on official ISED sources: RIC-21, RIC-20, the ROC-A FAQ and aircraft radio licensing exemptions. These are original study questions, not official exam questions.",
         "label": "Official study guide ↗",
         "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc"
       },
@@ -15,244 +15,1687 @@
         {
           "topic": "Basics & rules",
           "question": "What does ROC-A stand for?",
-          "answer": "Restricted Operator Certificate – Aeronautical."
+          "answer": "Restricted Operator Certificate – Aeronautical.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "1-2"
+          },
+          "id": "roc-a-001"
         },
         {
           "topic": "Basics & rules",
           "question": "Does an ROC-A expire?",
-          "answer": "No. It is issued for life and requires no revalidation."
+          "answer": "No. It is issued for life and requires no revalidation.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "1"
+          },
+          "id": "roc-a-002"
         },
         {
           "topic": "Basics & rules",
           "question": "What can the exam assess?",
-          "answer": "Radio operation, radiotelephone procedures, safety regulations and relevant Canadian radio law. Written, oral and practical exercises are possible."
+          "answer": "Radio operation, radiotelephone procedures, safety regulations and relevant Canadian radio law. Written, oral and practical exercises are possible.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "3.1"
+          },
+          "id": "roc-a-003"
         },
         {
           "topic": "Basics & rules",
           "question": "Which communications have first and second priority?",
-          "answer": "Distress is first. Urgency is second."
+          "answer": "Distress is first. Urgency is second.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "4.1"
+          },
+          "id": "roc-a-004"
         },
         {
           "topic": "Basics & rules",
           "question": "What follows urgency in the priority order?",
-          "answer": "Direction-finding → flight safety → meteorological → flight regularity → UN Charter → expressly prioritized government → telecom service → other aeronautical communications."
+          "answer": "Direction-finding → flight safety → meteorological → flight regularity → UN Charter → expressly prioritized government → telecom service → other aeronautical communications.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "4.1"
+          },
+          "id": "roc-a-005"
         },
         {
           "topic": "Basics & rules",
           "question": "Who normally controls air-ground communications?",
-          "answer": "The ground station. Between aircraft, the aircraft being called controls communications. Distress and urgency have special control procedures."
+          "answer": "The ground station. Between aircraft, the aircraft being called controls communications. Distress and urgency have special control procedures.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "4.3"
+          },
+          "id": "roc-a-006"
         },
         {
           "topic": "Basics & rules",
           "question": "May you disclose intercepted radio communications?",
-          "answer": "Generally no. Exceptions include authorized disclosures and messages concerning distress, urgency, safety or addressed to ALL STATIONS."
+          "answer": "Generally no. Exceptions include authorized disclosures and messages concerning distress, urgency, safety or addressed to ALL STATIONS.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "4.2"
+          },
+          "id": "roc-a-007"
         },
         {
           "topic": "Basics & rules",
           "question": "When may you interrupt another transmission?",
-          "answer": "To send higher-priority communications, such as distress or urgency. Otherwise, avoid interference."
+          "answer": "To send higher-priority communications, such as distress or urgency. Otherwise, avoid interference.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "4.4"
+          },
+          "id": "roc-a-008"
         },
         {
           "topic": "Basics & rules",
           "question": "Are unnecessary chatter, profanity or false distress signals permitted?",
-          "answer": "No. Unnecessary communications, profane or obscene language, and knowingly false distress signals are prohibited."
+          "answer": "No. Unnecessary communications, profane or obscene language, and knowingly false distress signals are prohibited.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc",
+            "section": "4.4-4.5"
+          },
+          "id": "roc-a-009"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What should you do before transmitting?",
-          "answer": "Plan your message, use the appropriate frequency and listen to ensure you will not interfere with existing traffic."
+          "answer": "Plan your message, use the appropriate frequency and listen to ensure you will not interfere with existing traffic.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.1, 5.7.4"
+          },
+          "id": "roc-a-010"
         },
         {
           "topic": "Calling & phraseology",
           "question": "How should you speak over the radio?",
-          "answer": "Clearly, at a steady conversational pace. Avoid shouting, rushing, and filler words."
+          "answer": "Clearly, at a steady conversational pace. Avoid shouting, rushing, and filler words.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.1"
+          },
+          "id": "roc-a-011"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Say A through G using the phonetic alphabet.",
-          "answer": "Alfa · Bravo · Charlie · Delta · Echo · Foxtrot · Golf"
+          "answer": "Alfa · Bravo · Charlie · Delta · Echo · Foxtrot · Golf",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-012"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Say H through N using the phonetic alphabet.",
-          "answer": "Hotel · India · Juliett · Kilo · Lima · Mike · November"
+          "answer": "Hotel · India · Juliett · Kilo · Lima · Mike · November",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-013"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Say O through T using the phonetic alphabet.",
-          "answer": "Oscar · Papa · Quebec · Romeo · Sierra · Tango"
+          "answer": "Oscar · Papa · Quebec · Romeo · Sierra · Tango",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-014"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Say U through Z using the phonetic alphabet.",
-          "answer": "Uniform · Victor · Whiskey · X-ray · Yankee · Zulu"
+          "answer": "Uniform · Victor · Whiskey · X-ray · Yankee · Zulu",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-015"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "How are the digits 3, 5 and 9 pronounced?",
-          "answer": "3 = TREE\n5 = FIFE\n9 = NIN-er"
+          "answer": "3 = TREE\n5 = FIFE\n9 = NIN-er",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-016"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Transmit the frequency 123.4 MHz.",
-          "answer": "One two tree decimal fower.\nSay each digit separately and use DECIMAL."
+          "answer": "One two tree decimal fower.\nSay each digit separately and use DECIMAL.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3-5.4"
+          },
+          "id": "roc-a-017"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Transmit heading 007 and flight level 240.",
-          "answer": "Heading zero zero seven.\nFlight level two fower zero."
+          "answer": "Heading zero zero seven.\nFlight level two fower zero.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3-5.4"
+          },
+          "id": "roc-a-018"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Transmit an altitude of 3,500 feet.",
-          "answer": "Three thousand five hundred.\nAltitudes use the thousands-and-hundreds convention."
+          "answer": "Three thousand five hundred.\nAltitudes use the thousands-and-hundreds convention.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.4"
+          },
+          "id": "roc-a-019"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "What time system is normally used? Say 1840Z.",
-          "answer": "The 24-hour clock in UTC (Zulu).\nOne eight fower zero Zulu."
+          "answer": "The 24-hour clock in UTC (Zulu).\nOne eight fower zero Zulu.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.2-5.4"
+          },
+          "id": "roc-a-020"
         },
         {
           "topic": "Alphabet & numbers",
           "question": "Give the private-aircraft call sign for a Cessna registered C-GJKT.",
-          "answer": "Cessna Golf Juliett Kilo Tango.\nUse the manufacturer or aircraft type plus the last four registration letters."
+          "answer": "Cessna Golf Juliett Kilo Tango.\nUse the manufacturer or aircraft type plus the last four registration letters.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.6.2"
+          },
+          "id": "roc-a-021"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What is the RIC-21 initial-call sequence?",
-          "answer": "Called station → THIS IS → your call sign → transmitting frequency → OVER."
+          "answer": "Called station → THIS IS → your call sign → transmitting frequency → OVER.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.1"
+          },
+          "id": "roc-a-022"
         },
         {
           "topic": "Calling & phraseology",
           "question": "You hear a call but are unsure it is addressed to you. What do you do?",
-          "answer": "Wait until it has been repeated and understood before replying."
+          "answer": "Wait until it has been repeated and understood before replying.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.2"
+          },
+          "id": "roc-a-023"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What does GO AHEAD mean?",
-          "answer": "Proceed with your message.\nIt does not authorize taxiing or taking off."
+          "answer": "Proceed with your message.\nIt does not authorize taxiing or taking off.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-024"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What is the difference between ROGER and WILCO?",
-          "answer": "ROGER: I received your last transmission.\nWILCO: I received and understood your instructions and will comply."
+          "answer": "ROGER: I received your last transmission.\nWILCO: I received and understood your instructions and will comply.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-025"
         },
         {
           "topic": "Calling & phraseology",
           "question": "Does ROGER mean “yes”?",
-          "answer": "No. Use AFFIRM for yes and NEGATIVE for no, incorrect, or disagreement."
+          "answer": "No. Use AFFIRM for yes and NEGATIVE for no, incorrect, or disagreement.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-026"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What is the difference between OVER and OUT?",
-          "answer": "OVER: my transmission ends and I expect a reply.\nOUT: the exchange ends and no reply is expected.\nDo not say “over and out.”"
+          "answer": "OVER: my transmission ends and I expect a reply.\nOUT: the exchange ends and no reply is expected.\nDo not say “over and out.”",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.5, Appendix B"
+          },
+          "id": "roc-a-027"
         },
         {
           "topic": "Calling & phraseology",
           "question": "How do you request repetition or correct your own transmission?",
-          "answer": "Request repetition: SAY AGAIN.\nCorrect yourself: CORRECTION, followed by the corrected information."
+          "answer": "Request repetition: SAY AGAIN.\nCorrect yourself: CORRECTION, followed by the corrected information.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.3"
+          },
+          "id": "roc-a-028"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What does READ BACK require?",
-          "answer": "Repeat all, or the specified part, of the message exactly as received."
+          "answer": "Repeat all, or the specified part, of the message exactly as received.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-029"
         },
         {
           "topic": "Calling & phraseology",
           "question": "What do readability ratings 1 through 5 mean?",
-          "answer": "1: Unreadable\n2: Readable intermittently\n3: Readable with difficulty\n4: Readable\n5: Perfectly readable"
+          "answer": "1: Unreadable\n2: Readable intermittently\n3: Readable with difficulty\n4: Readable\n5: Perfectly readable",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.5"
+          },
+          "id": "roc-a-030"
         },
         {
           "topic": "Calling & phraseology",
           "question": "How long may a signal check last?",
-          "answer": "No more than 10 seconds. Include your call sign and avoid interference."
+          "answer": "No more than 10 seconds. Include your call sign and avoid interference.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.5"
+          },
+          "id": "roc-a-031"
         },
         {
           "topic": "Emergencies",
           "question": "When do you use MAYDAY versus PAN PAN?",
-          "answer": "MAYDAY: grave or imminent danger requiring immediate assistance.\nPAN PAN: an urgent safety concern that does not require immediate assistance."
+          "answer": "MAYDAY: grave or imminent danger requiring immediate assistance.\nPAN PAN: an urgent safety concern that does not require immediate assistance.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.1, 7.1"
+          },
+          "id": "roc-a-032"
         },
         {
           "topic": "Emergencies",
           "question": "Which frequency should you use first for distress?",
-          "answer": "The air-ground frequency already in use. If contact cannot be established, try 121.5 MHz or another available frequency."
+          "answer": "The air-ground frequency already in use. If contact cannot be established, try 121.5 MHz or another available frequency.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.3"
+          },
+          "id": "roc-a-033"
         },
         {
           "topic": "Emergencies",
           "question": "Who authorizes a distress or urgency call?",
-          "answer": "The person in command or in charge of the station."
+          "answer": "The person in command or in charge of the station.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.7, 7.1"
+          },
+          "id": "roc-a-034"
         },
         {
           "topic": "Emergencies",
           "question": "Recite the initial distress-call structure.",
-          "answer": "MAYDAY, MAYDAY, MAYDAY.\nTHIS IS.\nYour aircraft call sign three times.\nThe call is not addressed to a particular station."
+          "answer": "MAYDAY, MAYDAY, MAYDAY.\nTHIS IS.\nYour aircraft call sign three times.\nThe call is not addressed to a particular station.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.7"
+          },
+          "id": "roc-a-035"
         },
         {
           "topic": "Emergencies",
           "question": "What information follows the initial distress call?",
-          "answer": "MAYDAY; aircraft identity; distress and assistance needed; intentions; position, airspeed, altitude and heading; people aboard and injuries; other rescue information; aircraft identity.\nInclude as much as possible."
+          "answer": "MAYDAY; aircraft identity; distress and assistance needed; intentions; position, airspeed, altitude and heading; people aboard and injuries; other rescue information; aircraft identity.\nInclude as much as possible.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.8"
+          },
+          "id": "roc-a-036"
         },
         {
           "topic": "Emergencies",
           "question": "Your distress message receives no answer. What next?",
-          "answer": "Repeat at intervals when feasible. Leave enough time between transmissions for other stations to reply."
+          "answer": "Repeat at intervals when feasible. Leave enough time between transmissions for other stations to reply.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.9"
+          },
+          "id": "roc-a-037"
         },
         {
           "topic": "Emergencies",
           "question": "What should you do when you hear distress traffic?",
-          "answer": "Stop transmissions that could interfere. Monitor the frequency and assist or notify appropriate services as needed."
+          "answer": "Stop transmissions that could interfere. Monitor the frequency and assist or notify appropriate services as needed.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.12-6.13"
+          },
+          "id": "roc-a-038"
         },
         {
           "topic": "Emergencies",
           "question": "What signal precedes subsequent distress transmissions?",
-          "answer": "MAYDAY, spoken once."
+          "answer": "MAYDAY, spoken once.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.13"
+          },
+          "id": "roc-a-039"
         },
         {
           "topic": "Emergencies",
           "question": "How do you begin relaying another aircraft’s distress message?",
-          "answer": "MAYDAY RELAY three times → THIS IS → your call sign three times → MAYDAY once → details of the aircraft in distress."
+          "answer": "MAYDAY RELAY three times → THIS IS → your call sign three times → MAYDAY once → details of the aircraft in distress.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.16"
+          },
+          "id": "roc-a-040"
         },
         {
           "topic": "Emergencies",
           "question": "SEELONCE MAYDAY versus SEELONCE DISTRESS?",
-          "answer": "SEELONCE MAYDAY: silence imposed by the station in distress or controlling distress traffic.\nSEELONCE DISTRESS: essential silence imposed by another nearby station."
+          "answer": "SEELONCE MAYDAY: silence imposed by the station in distress or controlling distress traffic.\nSEELONCE DISTRESS: essential silence imposed by another nearby station.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.17"
+          },
+          "id": "roc-a-041"
         },
         {
           "topic": "Emergencies",
           "question": "What does SEELONCE FEENEE mean?",
-          "answer": "Distress silence has ended and normal traffic may resume. The nearest aeronautical station must also be told why the distress call is cancelled."
+          "answer": "Distress silence has ended and normal traffic may resume. The nearest aeronautical station must also be told why the distress call is cancelled.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.18"
+          },
+          "id": "roc-a-042"
         },
         {
           "topic": "Emergencies",
           "question": "Recite the urgency-message structure.",
-          "answer": "PAN PAN three times → addressee or ALL STATIONS three times → THIS IS → aircraft identity → nature of urgency → intentions → position, altitude or flight level, heading → other useful information."
+          "answer": "PAN PAN three times → addressee or ALL STATIONS three times → THIS IS → aircraft identity → nature of urgency → intentions → position, altitude or flight level, heading → other useful information.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.4"
+          },
+          "id": "roc-a-043"
         },
         {
           "topic": "Emergencies",
           "question": "What priority does PAN PAN have?",
-          "answer": "Below distress, but above all other communications."
+          "answer": "Below distress, but above all other communications.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.2"
+          },
+          "id": "roc-a-044"
         },
         {
           "topic": "Emergencies",
           "question": "When do you cancel an urgency message?",
-          "answer": "When the action requested is no longer necessary. Address the cancellation to ALL STATIONS."
+          "answer": "When the action requested is no longer necessary. Address the cancellation to ALL STATIONS.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.5"
+          },
+          "id": "roc-a-045"
         },
         {
           "topic": "Equipment & licensing",
           "question": "May you replace a blown fuse with a higher-rated fuse?",
-          "answer": "No. Correct the fault first, then use the specified fuse rating."
+          "answer": "No. Correct the fault first, then use the specified fuse rating.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix C"
+          },
+          "id": "roc-a-046"
         },
         {
           "topic": "Equipment & licensing",
           "question": "What connector faults can disrupt radio operation?",
-          "answer": "Loose or corroded connections, short circuits, and broken or open wires."
+          "answer": "Loose or corroded connections, short circuits, and broken or open wires.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix C"
+          },
+          "id": "roc-a-047"
         },
         {
           "topic": "Equipment & licensing",
           "question": "How does an operator certificate differ from a station licence?",
-          "answer": "ROC-A qualifies the operator. A station licence authorizes the station, its frequencies and operating conditions. Station-licence exemptions may apply."
+          "answer": "ROC-A qualifies the operator. A station licence authorizes the station, its frequencies and operating conditions. Station-licence exemptions may apply.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix D"
+          },
+          "id": "roc-a-048"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter A?",
+          "answer": "Alfa",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-049"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter B?",
+          "answer": "Bravo",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-050"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter C?",
+          "answer": "Charlie",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-051"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter D?",
+          "answer": "Delta",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-052"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter E?",
+          "answer": "Echo",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-053"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter F?",
+          "answer": "Foxtrot",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-054"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter G?",
+          "answer": "Golf",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-055"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter H?",
+          "answer": "Hotel",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-056"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter I?",
+          "answer": "India",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-057"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter J?",
+          "answer": "Juliett",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-058"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter K?",
+          "answer": "Kilo",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-059"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter L?",
+          "answer": "Lima",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-060"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter M?",
+          "answer": "Mike",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-061"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter N?",
+          "answer": "November",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-062"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter O?",
+          "answer": "Oscar",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-063"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter P?",
+          "answer": "Papa",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-064"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter Q?",
+          "answer": "Quebec",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-065"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter R?",
+          "answer": "Romeo",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-066"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter S?",
+          "answer": "Sierra",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-067"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter T?",
+          "answer": "Tango",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-068"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter U?",
+          "answer": "Uniform",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-069"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter V?",
+          "answer": "Victor",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-070"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter W?",
+          "answer": "Whiskey",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-071"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter X?",
+          "answer": "X-ray",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-072"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter Y?",
+          "answer": "Yankee",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-073"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What is the phonetic word for the letter Z?",
+          "answer": "Zulu",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-074"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 0 in radiotelephony?",
+          "answer": "ZE-RO",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-075"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 1 in radiotelephony?",
+          "answer": "WUN",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-076"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 2 in radiotelephony?",
+          "answer": "TOO",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-077"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 3 in radiotelephony?",
+          "answer": "TREE",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-078"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 4 in radiotelephony?",
+          "answer": "FOW-er",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-079"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 5 in radiotelephony?",
+          "answer": "FIFE",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-080"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 6 in radiotelephony?",
+          "answer": "SIX",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-081"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 7 in radiotelephony?",
+          "answer": "SEV-en",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-082"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 8 in radiotelephony?",
+          "answer": "AIT",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-083"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How do you pronounce the single digit 9 in radiotelephony?",
+          "answer": "NIN-er",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3"
+          },
+          "id": "roc-a-084"
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Are there age or nationality restrictions for taking the ROC-A examination?",
+          "answer": "No. Neither age nor nationality restricts eligibility.",
+          "source": {
+            "title": "ISED RIC-20",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-20-guide-examiners-conducting-examinations-restricted-operator-certificate-aeronautical",
+            "section": "3.1"
+          },
+          "id": "roc-a-085"
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "In which languages can candidates demonstrate proficiency for ROC-A?",
+          "answer": "English or French. English is the language of international aviation.",
+          "source": {
+            "title": "ISED RIC-20",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-20-guide-examiners-conducting-examinations-restricted-operator-certificate-aeronautical",
+            "section": "3.2"
+          },
+          "id": "roc-a-086"
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "What identification should you bring to the ROC-A examination?",
+          "answer": "Photo identification, such as a passport or driver’s licence. The examiner decides whether the identification presented is acceptable.",
+          "source": {
+            "title": "ISED RIC-20",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-20-guide-examiners-conducting-examinations-restricted-operator-certificate-aeronautical",
+            "section": "3.4"
+          },
+          "id": "roc-a-087"
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Can an accredited examiner issue a temporary ROC-A certificate after you pass?",
+          "answer": "No. For a legitimate urgent need, the examiner can request expedited issuance from the Radio Operator Certificate Service Centre.",
+          "source": {
+            "title": "ISED ROC-A FAQ",
+            "url": "https://www.ised-isde.canada.ca/site/professional-radio-operator-certificate-services/en/frequently-asked-questions",
+            "section": "ROC-A question 2"
+          },
+          "id": "roc-a-088"
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Are examiner charges necessarily government examination fees?",
+          "answer": "No. ISED says examiners do not levy a fee on its behalf, but may charge to recover examination costs.",
+          "source": {
+            "title": "ISED ROC-A FAQ",
+            "url": "https://www.ised-isde.canada.ca/site/professional-radio-operator-certificate-services/en/frequently-asked-questions",
+            "section": "ROC-A question 1"
+          },
+          "id": "roc-a-089"
+        },
+        {
+          "topic": "Aeronautical terms",
+          "question": "What is an aerodrome?",
+          "answer": "An area of land, water or another supporting surface used or set aside for aircraft arrival, departure, movement or servicing, including associated facilities.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix A"
+          },
+          "id": "roc-a-090"
+        },
+        {
+          "topic": "Aeronautical terms",
+          "question": "What is an aircraft station?",
+          "answer": "An aeronautical mobile radio station located aboard an aircraft, other than a survival-craft station.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix A"
+          },
+          "id": "roc-a-091"
+        },
+        {
+          "topic": "Aeronautical terms",
+          "question": "What is an aeronautical station?",
+          "answer": "A land station in the aeronautical mobile service; in some cases it may be on a ship or offshore platform.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix A"
+          },
+          "id": "roc-a-092"
+        },
+        {
+          "topic": "Aeronautical terms",
+          "question": "What makes an aerodrome a controlled aerodrome?",
+          "answer": "An air traffic control unit is operating there.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix A"
+          },
+          "id": "roc-a-093"
+        },
+        {
+          "topic": "Aeronautical terms",
+          "question": "What are the main purposes of an air traffic control service?",
+          "answer": "Prevent collisions and maintain an orderly, efficient flow of air traffic.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix A"
+          },
+          "id": "roc-a-094"
+        },
+        {
+          "topic": "Aeronautical terms",
+          "question": "What does AOCC refer to?",
+          "answer": "Aeronautical Operational Control Communications: communications related to flight regularity.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix A"
+          },
+          "id": "roc-a-095"
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "Does an aircraft station-licence exemption also remove the operator-certificate requirement?",
+          "answer": "No. The operator still needs the appropriate Radio Operator Certificate.",
+          "source": {
+            "title": "ISED Licensing exemptions",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/licensing-exemptions",
+            "section": "Aircraft Radio Station Licensing - Certification"
+          },
+          "id": "roc-a-096"
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "What two conditions qualify onboard aircraft radio equipment for the Canadian licence exemption?",
+          "answer": "The aircraft is not operated in another country’s sovereign airspace, and the onboard equipment can operate only on frequencies allocated to aeronautical mobile communications or radionavigation.",
+          "source": {
+            "title": "ISED Licensing exemptions",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/licensing-exemptions",
+            "section": "Aircraft Radio Station Licensing - Licensing Requirements"
+          },
+          "id": "roc-a-097"
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "Does the onboard-aircraft licence exemption cover airport ground radios?",
+          "answer": "No. Airport land-based radios, including portables and mobiles used for ground operations, still require a licence.",
+          "source": {
+            "title": "ISED Licensing exemptions",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/licensing-exemptions",
+            "section": "Aircraft Radio Station Licensing - Licensing Requirements"
+          },
+          "id": "roc-a-098"
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "Must licence-exempt onboard aircraft radio equipment still meet Canadian standards?",
+          "answer": "Yes. The exemption removes the licence requirement, not applicable equipment standards.",
+          "source": {
+            "title": "ISED Licensing exemptions",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/licensing-exemptions",
+            "section": "Aircraft Radio Station Licensing - Licensing Requirements"
+          },
+          "id": "roc-a-099"
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "What does a blown fuse or tripped circuit breaker tell you?",
+          "answer": "A circuit problem may exist. Power is interrupted to protect against overheating and fire; correct the fault before replacing the fuse.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix C"
+          },
+          "id": "roc-a-100"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does ACKNOWLEDGE ask the receiving station to do?",
+          "answer": "Indicate that the message was received and understood.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-101"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does CLEARED mean?",
+          "answer": "You are authorized to proceed subject to the specified conditions.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-102"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does CONFIRM request?",
+          "answer": "Verification that information was received correctly or that a message was received.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-103"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does DISREGARD mean?",
+          "answer": "Treat the indicated transmission as though it had not been sent.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-104"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does MONITOR mean?",
+          "answer": "Listen on the specified frequency.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-105"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does STANDBY mean?",
+          "answer": "Wait; the other station needs to pause and will call you.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-106"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does HOW DO YOU READ ask about?",
+          "answer": "The readability of the transmission.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-107"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does I SAY AGAIN tell the listener?",
+          "answer": "The speaker is repeating information for clarity or emphasis.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-108"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does WORDS TWICE mean when used as a request?",
+          "answer": "Communication is difficult; transmit each word or word group twice.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-109"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does BREAK indicate within a message?",
+          "answer": "A separation between message portions when the boundary would otherwise be unclear.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "Appendix B"
+          },
+          "id": "roc-a-110"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "How do you ask for everything after the word ALTITUDE to be repeated?",
+          "answer": "SAY AGAIN ALL AFTER ALTITUDE.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.3"
+          },
+          "id": "roc-a-111"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "How do you ask for only the information between POSITION and HEADING to be repeated?",
+          "answer": "SAY AGAIN POSITION TO HEADING.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.3"
+          },
+          "id": "roc-a-112"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "During a routine call, whose identity is transmitted first?",
+          "answer": "The identity of the station being called; then THIS IS and the calling station’s identity.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.1"
+          },
+          "id": "roc-a-113"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "In good radio conditions, how many times should identities be spoken in a routine initial call?",
+          "answer": "Once. They may be repeated up to three times when necessary.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.1"
+          },
+          "id": "roc-a-114"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What address do you use to call any station within range?",
+          "answer": "ALL STATIONS.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.1"
+          },
+          "id": "roc-a-115"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "In what order should stations answer a multiple-station call?",
+          "answer": "Normally, in the order in which they were called.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.1"
+          },
+          "id": "roc-a-116"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "You know a call is for you, but cannot identify the caller. How do you respond?",
+          "answer": "STATION CALLING, followed by your station identity, SAY AGAIN and OVER.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.2"
+          },
+          "id": "roc-a-117"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What are the four general stages of message handling?",
+          "answer": "Initial call, recipient’s reply, message, and acknowledgment or ending.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7.4"
+          },
+          "id": "roc-a-118"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "When several aircraft call a ground station simultaneously, who sets the transmission order?",
+          "answer": "The ground station, according to message priority.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.7"
+          },
+          "id": "roc-a-119"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Using the general number rule, transmit 75.",
+          "answer": "Seven fife. Each digit is spoken separately.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3-5.4"
+          },
+          "id": "roc-a-120"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Using the whole-thousands rule, transmit 11,000.",
+          "answer": "One one thousand.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.4"
+          },
+          "id": "roc-a-121"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Transmit an altitude of 2,700 feet above sea level.",
+          "answer": "Two thousand seven hundred.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.4"
+          },
+          "id": "roc-a-122"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Transmit flight level 265.",
+          "answer": "Flight level two six fife.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.3-5.4"
+          },
+          "id": "roc-a-123"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What four-digit time represents 11:45 p.m.?",
+          "answer": "2345.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.2"
+          },
+          "id": "roc-a-124"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "In a six-digit date-and-time group, what do the first two digits represent?",
+          "answer": "The day of the month. The final four digits represent the time.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.2"
+          },
+          "id": "roc-a-125"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "In the Southern Domestic Airspace, are headings expressed as magnetic or true?",
+          "answer": "Magnetic.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.4"
+          },
+          "id": "roc-a-126"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "In the Northern Domestic Airspace, are headings expressed as magnetic or true?",
+          "answer": "True.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification",
+            "section": "5.4"
+          },
+          "id": "roc-a-127"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Do distress procedures prevent a station from using other means to obtain assistance?",
+          "answer": "No. A station in distress may use any available means to attract attention, report its position and obtain help.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.2"
+          },
+          "id": "roc-a-128"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Who initially controls distress traffic?",
+          "answer": "The aircraft in distress or the station relaying its distress message. Control can be delegated to another station.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.6"
+          },
+          "id": "roc-a-129"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "May distress-traffic control be delegated to an aeronautical ground station?",
+          "answer": "Yes. Such a station can coordinate effectively with air traffic control and search and rescue.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.6"
+          },
+          "id": "roc-a-130"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Should a receiving station acknowledge the initial distress call before the distress message?",
+          "answer": "No. Wait for the distress message to be transmitted.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.7"
+          },
+          "id": "roc-a-131"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Which details help rescuers locate and assess an aircraft in distress?",
+          "answer": "Position, altitude, heading and airspeed; number of people aboard; injuries; and other information useful for rescue.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.8"
+          },
+          "id": "roc-a-132"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "If the distress message immediately follows the initial call, which opening elements may be omitted?",
+          "answer": "The message’s repeated MAYDAY and opening aircraft identity may be omitted, because they were just given in the call.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.8 note"
+          },
+          "id": "roc-a-133"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What should the aircraft in distress do immediately after sending its distress message?",
+          "answer": "Listen for acknowledgment, then exchange further distress traffic as needed.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.10"
+          },
+          "id": "roc-a-134"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "When should automatic emergency equipment such as an ELT be activated during distress?",
+          "answer": "When available and appropriate, as part of the action directed by the person in command.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.10"
+          },
+          "id": "roc-a-135"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "When should another aircraft transmit a distress message for an aircraft that cannot do so?",
+          "answer": "When the distressed station is unable to transmit, the other aircraft can transmit its distress information on its behalf.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.11"
+          },
+          "id": "roc-a-136"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Can a station relay distress because its commander believes further help is needed?",
+          "answer": "Yes. RIC-21 includes that as a reason for another aircraft to transmit the distress message.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.11"
+          },
+          "id": "roc-a-137"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "You are far from a distressed aircraft. Why wait briefly before acknowledging?",
+          "answer": "To give stations nearer the aircraft a chance to reply.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.11"
+          },
+          "id": "roc-a-138"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What should you do if you hear an unacknowledged distress message but cannot personally help?",
+          "answer": "Try to alert stations that can help and notify the appropriate search-and-rescue authorities.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.9, 6.11"
+          },
+          "id": "roc-a-139"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "When should a listener request help from radar or direction-finding facilities?",
+          "answer": "When assistance is needed, unless the acknowledging station has already taken or will take that action.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.12"
+          },
+          "id": "roc-a-140"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "If you are not participating in distress traffic, when may you resume transmitting on that frequency?",
+          "answer": "After a message indicates that normal traffic may resume.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.13"
+          },
+          "id": "roc-a-141"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Recite the acknowledgment structure for a distress message.",
+          "answer": "MAYDAY once; distressed station’s identity three times; THIS IS; acknowledging station’s identity three times; RECEIVED MAYDAY.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.14"
+          },
+          "id": "roc-a-142"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What should a station that acknowledges distress do about communications control?",
+          "answer": "Take control or explicitly transfer that responsibility, informing the aircraft if control is transferred.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.15"
+          },
+          "id": "roc-a-143"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Which organizations should receive the necessary information after distress is acknowledged?",
+          "answer": "The relevant Air Traffic Service unit and the aircraft operating agency or its representative.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.15"
+          },
+          "id": "roc-a-144"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Who announces that distress silence has ended?",
+          "answer": "The station that controlled the distress traffic, addressing ALL STATIONS on the frequencies used.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "6.18"
+          },
+          "id": "roc-a-145"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "When urgency communications fail on the current air-ground frequency, what should you try?",
+          "answer": "Repeat the urgency call and message on 121.5 MHz or another available frequency.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.3"
+          },
+          "id": "roc-a-146"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Can PAN PAN be addressed to one particular station?",
+          "answer": "Yes. It may be addressed to a specific station or to ALL STATIONS.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.1"
+          },
+          "id": "roc-a-147"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "After hearing PAN PAN, how long should you listen if no urgency message follows?",
+          "answer": "At least three minutes on that frequency.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.2"
+          },
+          "id": "roc-a-148"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "After three minutes with no urgency message, what should you do before resuming normal work?",
+          "answer": "If possible, notify an aeronautical ground station that you heard the urgency signal; normal work may then resume.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.2"
+          },
+          "id": "roc-a-149"
+        },
+        {
+          "topic": "Emergencies",
+          "question": "If you acknowledge an urgency message addressed to ALL STATIONS, what must you do with its information?",
+          "answer": "Forward it to the appropriate authorities, such as the Air Traffic Service unit or airport operating agency.",
+          "source": {
+            "title": "ISED RIC-21",
+            "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802",
+            "section": "7.4"
+          },
+          "id": "roc-a-150"
         }
-      ]
+      ],
+      "sources": [
+        {
+          "id": "ric21-1",
+          "title": "ISED RIC-21: requirements and regulations",
+          "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc"
+        },
+        {
+          "id": "ric21-2",
+          "title": "ISED RIC-21: operating procedures",
+          "url": "https://www.ised-isde.canada.ca/site/spectrum-management-telecommunications/en/official-publications/information/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification"
+        },
+        {
+          "id": "ric21-3",
+          "title": "ISED RIC-21: emergencies and appendices",
+          "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-sf09802"
+        },
+        {
+          "id": "ric20",
+          "title": "ISED RIC-20: examiner guide",
+          "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-20-guide-examiners-conducting-examinations-restricted-operator-certificate-aeronautical"
+        },
+        {
+          "id": "faq",
+          "title": "ISED: professional radio operator certificate FAQ",
+          "url": "https://www.ised-isde.canada.ca/site/professional-radio-operator-certificate-services/en/frequently-asked-questions"
+        },
+        {
+          "id": "exemptions",
+          "title": "ISED: aircraft radio licensing exemptions",
+          "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/licensing-exemptions"
+        }
+      ],
+      "sourcesVerifiedOn": "2026-10-09"
     }
   ]
 }
