@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>To First Officer Young-mi</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#eef3f7;color:#183247;font-family:system-ui,-apple-system,sans-serif}
+main{max-width:720px;margin:auto;padding:28px 20px}
+header{display:flex;justify-content:space-between;align-items:center;gap:16px}
+h1{margin:0;font-size:28px;letter-spacing:-1px}
+.subtitle{color:#627586;font-size:14px;margin:6px 0 24px}
+.badge{background:#dcefeb;color:#176b60;padding:7px 12px;border-radius:30px;font-size:12px;font-weight:700;white-space:nowrap}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+button,select{font:inherit}
+button,select{border:1px solid #cfdae2;background:white;border-radius:12px;padding:11px 16px;color:#183247}
+button{cursor:pointer;font-weight:600}
+button:hover{filter:brightness(.97)}
+button:focus-visible,select:focus-visible{outline:3px solid #339b92;outline-offset:3px}
+select{flex:1;min-width:180px}
+.progress-label{display:flex;justify-content:space-between;color:#627586;font-size:13px;margin:12px 0 8px}
+.track{height:5px;background:#dce4eb;border-radius:8px;overflow:hidden}
+.fill{height:100%;background:#208c80;transition:width .2s}
+.card{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:330px;margin:22px 0 16px;padding:35px 30px;background:white;border:1px solid #dce4eb;border-radius:24px;box-shadow:0 14px 36px #1934480c;text-align:center;transition:background .2s,transform .15s}
+.card:active{transform:scale(.995)}
+.card.answer{background:#f1fbf8;border-color:#a8d8cd}
+.label{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#218477;margin-bottom:26px}
+.text{font-size:26px;line-height:1.45;font-weight:650;max-width:590px;white-space:pre-line}
+.answer .text{font-size:23px;font-weight:500}
+.hint{font-size:12px;color:#80909c;margin-top:28px;font-weight:400}
+.actions{display:flex;gap:12px}
+.actions button{flex:1;padding:16px}
+.primary{background:#183b50;color:white;border-color:#183b50}
+.again{background:#fff3e8;color:#945c2a;border-color:#f1d8c0}
+.known{background:#208678;color:white;border-color:#208678}
+button:disabled{opacity:.4;cursor:default}
+.stats{display:flex;justify-content:center;gap:28px;margin:22px 0;color:#627586;font-size:13px}
+.stats strong{color:#183247}
+footer{font-size:11px;line-height:1.7;color:#7a8b98;text-align:center;margin-top:26px}
+footer a{color:#527586}
+.done{text-align:center;padding:40px 20px;background:white;border-radius:24px;margin-top:24px}
+.done h2{font-size:29px;margin:12px 0}
+.done p{color:#627586;line-height:1.6}
+.done button{margin:6px}
+.hidden{display:none!important}
+@media(max-width:480px){main{padding:20px 14px}.text{font-size:23px}.answer .text{font-size:20px}.card{padding:28px 22px;min-height:320px}.toolbar button{padding:10px 12px}.badge{display:none}}
+</style>
+</head>
+<body>
+<main>
+<header><h1 id="siteTitle">To First Officer Young-mi</h1><span class="badge" id="cardCount">Loading…</span></header>
+<p class="subtitle" id="subtitle">Think it through, then reveal.</p>
+<div class="toolbar hidden" id="toolbar">
+<select id="category" aria-label="Flashcard category"></select>
+<select id="topic" aria-label="Study topic"></select>
+<button id="shuffle">Shuffle ↔</button>
+<button id="restart">Restart</button>
+</div>
+<p id="status" role="status">Loading flashcards…</p>
+<section id="study" class="hidden">
+<div class="progress-label"><span id="position"></span><span id="topicLabel"></span></div>
+<div class="track"><div id="fill" class="fill"></div></div>
+<button id="card" class="card" aria-label="Reveal answer" aria-live="polite">
+<span class="label" id="label"></span><span class="text" id="text"></span>
+<span class="hint" id="hint">Tap to reveal · Space to flip</span>
+</button>
+<div class="actions" id="revealActions"><button class="primary" id="reveal">Reveal answer</button></div>
+<div class="actions hidden" id="gradeActions"><button class="again" id="again">↺ Study again</button><button class="known" id="known">✓ Got it</button></div>
+<div class="stats"><span>Got it: <strong id="knownCount">0</strong></span><span>Study again: <strong id="againCount">0</strong></span></div>
+</section>
+<section id="done" class="done hidden" aria-live="polite">
+<span class="badge">Round complete</span><h2 id="doneTitle"></h2><p id="doneText"></p>
+<button class="primary" id="review">Review missed cards</button><button id="startOver">Study this topic again</button>
+</section>
+<footer><span id="studyHint"></span><br><span id="sourceNote"></span><br><a id="sourceLink" target="_blank" rel="noopener noreferrer"></a></footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+let data,cards=[],deck=[],index=0,flipped=false,missed=[],known=0,roundTotal=0;
+function selected(){return cards.map((_,i)=>i).filter(i=>$("topic").value===""||cards[i].topic===$("topic").value);}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function start(ids){
+ deck=[...ids];index=0;flipped=false;missed=[];known=0;roundTotal=deck.length;
+ $("done").classList.add("hidden");$("study").classList.remove("hidden");render();
+}
+function render(){
+ if(index>=deck.length){finish();return;}
+ const c=cards[deck[index]];
+ $("position").textContent=`Card ${index+1} of ${roundTotal}`;$("topicLabel").textContent=c.topic;
+ $("fill").style.width=(index/roundTotal*100)+"%";$("card").classList.toggle("answer",flipped);
+ $("label").textContent=flipped?"Answer":"Question";$("text").textContent=flipped?c.answer:c.question;
+ $("hint").textContent=flipped?"Tap to see the question again":"Tap to reveal · Space to flip";
+ $("card").setAttribute("aria-label",flipped?"Show question":"Reveal answer");
+ $("revealActions").classList.toggle("hidden",flipped);$("gradeActions").classList.toggle("hidden",!flipped);
+ $("knownCount").textContent=known;$("againCount").textContent=missed.length;
+}
+function flip(){if(index>=deck.length)return;flipped=!flipped;render();}
+function grade(got){if(!flipped||index>=deck.length)return;if(got)known++;else missed.push(deck[index]);index++;flipped=false;render();}
+function finish(){
+ $("study").classList.add("hidden");$("done").classList.remove("hidden");
+ $("doneTitle").textContent=roundTotal===0?"No cards in this category yet.":missed.length?"Keep the tricky ones moving.":"You cleared this round!";
+ $("doneText").textContent=`${known} of ${roundTotal} marked “Got it”. ${missed.length} to study again.`;
+ $("review").classList.toggle("hidden",missed.length===0);
+}
+function loadCategory(){
+ const category=data.categories.find(c=>c.id===$("category").value);cards=category.cards;
+ $("cardCount").textContent=`${cards.length} ${cards.length===1?"card":"cards"}`;
+ $("subtitle").textContent=[category.name,category.description,"Think it through, then reveal."].filter(Boolean).join(" · ");
+ $("topic").replaceChildren(new Option("All topics",""));
+ for(const topic of [...new Set(cards.map(c=>c.topic))])$("topic").append(new Option(topic,topic));
+ $("studyHint").textContent=category.studyHint||"";$("sourceNote").textContent=category.source?.note||"";
+ const link=$("sourceLink");link.classList.add("hidden");link.removeAttribute("href");link.textContent="";
+ if(category.source?.url){const url=new URL(category.source.url);if(["https:","http:"].includes(url.protocol)){link.href=url.href;link.textContent=category.source.label||"Study source ↗";link.classList.remove("hidden");}}
+ start(selected());
+}
+function validate(value){
+ if(!value||typeof value.title!=="string"||!Array.isArray(value.categories)||!value.categories.length)throw new Error("Invalid flashcard data.");
+ const ids=new Set();
+ for(const category of value.categories){
+  if(typeof category.id!=="string"||!category.id||ids.has(category.id)||typeof category.name!=="string"||!Array.isArray(category.cards))throw new Error("Invalid category.");
+  ids.add(category.id);
+  if(!category.cards.every(c=>typeof c.topic==="string"&&typeof c.question==="string"&&typeof c.answer==="string"))throw new Error("Invalid flashcard.");
+ }
+ return value;
+}
+$("card").onclick=flip;$("reveal").onclick=flip;$("again").onclick=()=>grade(false);$("known").onclick=()=>grade(true);
+$("category").onchange=loadCategory;$("topic").onchange=()=>start(selected());$("restart").onclick=()=>start(selected());
+$("startOver").onclick=()=>start(selected());$("shuffle").onclick=()=>start(shuffle(selected()));$("review").onclick=()=>start(shuffle([...missed]));
+document.addEventListener("keydown",e=>{
+ if(!data||$("study").classList.contains("hidden")||["SELECT","INPUT","TEXTAREA","BUTTON","A"].includes(document.activeElement.tagName))return;
+ if(e.code==="Space"){e.preventDefault();flip();}if(e.key==="1")grade(false);if(e.key==="2")grade(true);
+});
+(async()=>{
+ try{
+  const response=await fetch("./flashcards.json");if(!response.ok)throw new Error("Could not load flashcards.");
+  data=validate(await response.json());document.title=data.title;$("siteTitle").textContent=data.title;
+  for(const category of data.categories)$("category").append(new Option(category.name,category.id));
+  loadCategory();$("status").classList.add("hidden");$("toolbar").classList.remove("hidden");
+ }catch(error){$("status").textContent="Flashcards could not be loaded. Please try reloading the page.";$("cardCount").textContent="Unavailable";console.error(error);}
+})();
+</script>
+</body>
+</html>

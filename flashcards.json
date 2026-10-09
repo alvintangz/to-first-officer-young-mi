@@ -1,0 +1,258 @@
+{
+  "title": "To First Officer Young-mi",
+  "categories": [
+    {
+      "id": "roc-a",
+      "name": "ROC-A",
+      "description": "Canadian aviation radio",
+      "studyHint": "Answer aloud for call signs, numbers and emergency procedures.",
+      "source": {
+        "note": "Based on ISED RIC-21. Practice cards, not official exam questions.",
+        "label": "Official study guide ↗",
+        "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ric/ric-21-study-guide-restricted-operator-certificate-aeronautical-qualification-roc"
+      },
+      "cards": [
+        {
+          "topic": "Basics & rules",
+          "question": "What does ROC-A stand for?",
+          "answer": "Restricted Operator Certificate – Aeronautical."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Does an ROC-A expire?",
+          "answer": "No. It is issued for life and requires no revalidation."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "What can the exam assess?",
+          "answer": "Radio operation, radiotelephone procedures, safety regulations and relevant Canadian radio law. Written, oral and practical exercises are possible."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Which communications have first and second priority?",
+          "answer": "Distress is first. Urgency is second."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "What follows urgency in the priority order?",
+          "answer": "Direction-finding → flight safety → meteorological → flight regularity → UN Charter → expressly prioritized government → telecom service → other aeronautical communications."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Who normally controls air-ground communications?",
+          "answer": "The ground station. Between aircraft, the aircraft being called controls communications. Distress and urgency have special control procedures."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "May you disclose intercepted radio communications?",
+          "answer": "Generally no. Exceptions include authorized disclosures and messages concerning distress, urgency, safety or addressed to ALL STATIONS."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "When may you interrupt another transmission?",
+          "answer": "To send higher-priority communications, such as distress or urgency. Otherwise, avoid interference."
+        },
+        {
+          "topic": "Basics & rules",
+          "question": "Are unnecessary chatter, profanity or false distress signals permitted?",
+          "answer": "No. Unnecessary communications, profane or obscene language, and knowingly false distress signals are prohibited."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What should you do before transmitting?",
+          "answer": "Plan your message, use the appropriate frequency and listen to ensure you will not interfere with existing traffic."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "How should you speak over the radio?",
+          "answer": "Clearly, at a steady conversational pace. Avoid shouting, rushing, and filler words."
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Say A through G using the phonetic alphabet.",
+          "answer": "Alfa · Bravo · Charlie · Delta · Echo · Foxtrot · Golf"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Say H through N using the phonetic alphabet.",
+          "answer": "Hotel · India · Juliett · Kilo · Lima · Mike · November"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Say O through T using the phonetic alphabet.",
+          "answer": "Oscar · Papa · Quebec · Romeo · Sierra · Tango"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Say U through Z using the phonetic alphabet.",
+          "answer": "Uniform · Victor · Whiskey · X-ray · Yankee · Zulu"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "How are the digits 3, 5 and 9 pronounced?",
+          "answer": "3 = TREE\n5 = FIFE\n9 = NIN-er"
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Transmit the frequency 123.4 MHz.",
+          "answer": "One two tree decimal fower.\nSay each digit separately and use DECIMAL."
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Transmit heading 007 and flight level 240.",
+          "answer": "Heading zero zero seven.\nFlight level two fower zero."
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Transmit an altitude of 3,500 feet.",
+          "answer": "Three thousand five hundred.\nAltitudes use the thousands-and-hundreds convention."
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "What time system is normally used? Say 1840Z.",
+          "answer": "The 24-hour clock in UTC (Zulu).\nOne eight fower zero Zulu."
+        },
+        {
+          "topic": "Alphabet & numbers",
+          "question": "Give the private-aircraft call sign for a Cessna registered C-GJKT.",
+          "answer": "Cessna Golf Juliett Kilo Tango.\nUse the manufacturer or aircraft type plus the last four registration letters."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What is the RIC-21 initial-call sequence?",
+          "answer": "Called station → THIS IS → your call sign → transmitting frequency → OVER."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "You hear a call but are unsure it is addressed to you. What do you do?",
+          "answer": "Wait until it has been repeated and understood before replying."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does GO AHEAD mean?",
+          "answer": "Proceed with your message.\nIt does not authorize taxiing or taking off."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What is the difference between ROGER and WILCO?",
+          "answer": "ROGER: I received your last transmission.\nWILCO: I received and understood your instructions and will comply."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "Does ROGER mean “yes”?",
+          "answer": "No. Use AFFIRM for yes and NEGATIVE for no, incorrect, or disagreement."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What is the difference between OVER and OUT?",
+          "answer": "OVER: my transmission ends and I expect a reply.\nOUT: the exchange ends and no reply is expected.\nDo not say “over and out.”"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "How do you request repetition or correct your own transmission?",
+          "answer": "Request repetition: SAY AGAIN.\nCorrect yourself: CORRECTION, followed by the corrected information."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What does READ BACK require?",
+          "answer": "Repeat all, or the specified part, of the message exactly as received."
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "What do readability ratings 1 through 5 mean?",
+          "answer": "1: Unreadable\n2: Readable intermittently\n3: Readable with difficulty\n4: Readable\n5: Perfectly readable"
+        },
+        {
+          "topic": "Calling & phraseology",
+          "question": "How long may a signal check last?",
+          "answer": "No more than 10 seconds. Include your call sign and avoid interference."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "When do you use MAYDAY versus PAN PAN?",
+          "answer": "MAYDAY: grave or imminent danger requiring immediate assistance.\nPAN PAN: an urgent safety concern that does not require immediate assistance."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Which frequency should you use first for distress?",
+          "answer": "The air-ground frequency already in use. If contact cannot be established, try 121.5 MHz or another available frequency."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Who authorizes a distress or urgency call?",
+          "answer": "The person in command or in charge of the station."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Recite the initial distress-call structure.",
+          "answer": "MAYDAY, MAYDAY, MAYDAY.\nTHIS IS.\nYour aircraft call sign three times.\nThe call is not addressed to a particular station."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What information follows the initial distress call?",
+          "answer": "MAYDAY; aircraft identity; distress and assistance needed; intentions; position, airspeed, altitude and heading; people aboard and injuries; other rescue information; aircraft identity.\nInclude as much as possible."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Your distress message receives no answer. What next?",
+          "answer": "Repeat at intervals when feasible. Leave enough time between transmissions for other stations to reply."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What should you do when you hear distress traffic?",
+          "answer": "Stop transmissions that could interfere. Monitor the frequency and assist or notify appropriate services as needed."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What signal precedes subsequent distress transmissions?",
+          "answer": "MAYDAY, spoken once."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "How do you begin relaying another aircraft’s distress message?",
+          "answer": "MAYDAY RELAY three times → THIS IS → your call sign three times → MAYDAY once → details of the aircraft in distress."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "SEELONCE MAYDAY versus SEELONCE DISTRESS?",
+          "answer": "SEELONCE MAYDAY: silence imposed by the station in distress or controlling distress traffic.\nSEELONCE DISTRESS: essential silence imposed by another nearby station."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What does SEELONCE FEENEE mean?",
+          "answer": "Distress silence has ended and normal traffic may resume. The nearest aeronautical station must also be told why the distress call is cancelled."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "Recite the urgency-message structure.",
+          "answer": "PAN PAN three times → addressee or ALL STATIONS three times → THIS IS → aircraft identity → nature of urgency → intentions → position, altitude or flight level, heading → other useful information."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "What priority does PAN PAN have?",
+          "answer": "Below distress, but above all other communications."
+        },
+        {
+          "topic": "Emergencies",
+          "question": "When do you cancel an urgency message?",
+          "answer": "When the action requested is no longer necessary. Address the cancellation to ALL STATIONS."
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "May you replace a blown fuse with a higher-rated fuse?",
+          "answer": "No. Correct the fault first, then use the specified fuse rating."
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "What connector faults can disrupt radio operation?",
+          "answer": "Loose or corroded connections, short circuits, and broken or open wires."
+        },
+        {
+          "topic": "Equipment & licensing",
+          "question": "How does an operator certificate differ from a station licence?",
+          "answer": "ROC-A qualifies the operator. A station licence authorizes the station, its frequencies and operating conditions. Station-licence exemptions may apply."
+        }
+      ]
+    }
+  ]
+}
